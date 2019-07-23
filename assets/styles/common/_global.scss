@@ -1,1 +1,157 @@
 
+body {
+	padding-top: 70px;
+
+}
+
+
+
+.main {
+  background: white;
+  @media(min-width:$screen-sm){
+    border-left: 15px solid white;
+    border-right: 15px solid white;
+  }
+}
+
+#tinymce {
+	padding-top: 0;
+  background: white;
+  p{
+    font-family: $font-family-sans-serif;
+  }
+}
+
+img[class*=align], img[class*=wp-image-] {
+	height: auto;
+}
+img.size-full {
+	max-width: 100%;
+	width: auto;
+}
+
+img.wp-post-image {
+	max-width: 100%;
+	height: auto;
+}
+
+.admin-bar .navbar {
+	margin-top: 30px;
+}
+
+.page-header h1{
+	color: black;
+  //font-style: italic;
+  font-weight: 600;
+  font-family: $font-family-sans-serif;
+
+}
+
+.container-fluid {
+  .main {
+    padding: 0;
+    border: none;
+  }
+}
+
+.wrap {
+  background: white;
+}
+
+.main p {
+  font-family: $font-family-serif;
+      font-size: 1.2em;
+
+}
+
+h1 {
+   font-family: $font-family-serif;
+  color: $brand-primary;
+}
+
+.section-header h1{
+  margin-top: 2.5em;
+}
+
+h2 {
+  font-weight: bold;
+
+
+}
+
+h3 {
+  font-family: $font-family-sans-serif;
+  font-weight: 900;
+  line-height: 1.6em;
+  padding-bottom: 0.2em;
+}
+
+.text-block h3 {
+  margin-top: 0;
+  margin-bottom: 0
+}
+
+th,td {
+  padding: 1.5em;
+}
+
+.map {
+  margin-bottom: 1.5em;
+}
+
+.two-col {
+  @media(min-width:$screen-md){
+
+ // column-count:2;
+
+  }
+}
+
+
+
+.carousel.fade {
+	opacity: 1;
+
+	.item
+	{
+		-moz-transition: opacity ease-in-out .7s;
+		-o-transition: opacity ease-in-out .7s;
+		-webkit-transition: opacity ease-in-out .7s;
+		transition: opacity ease-in-out .7s;
+		left: 0 !important;
+		opacity: 0;
+		top:0;
+		position:absolute;
+		width: 100%;
+		display:block !important;
+		//z-index:1;
+		&:first-child{
+			top:auto;
+			position:relative;
+		}
+
+		&.active
+		{
+			opacity: 1;
+			-moz-transition: opacity ease-in-out .7s;
+			-o-transition: opacity ease-in-out .7s;
+			-webkit-transition: opacity ease-in-out .7s;
+			transition: opacity ease-in-out .7s;
+			//z-index:2;
+		}
+	}
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image:none !important;
+	filter:none !important;
+}
+
+.about-us, .approach, .process {
+	.navbar-default .navbar-nav>li>.dropdown-toggle{
+		color: black;
+	}
+
+}
+
+

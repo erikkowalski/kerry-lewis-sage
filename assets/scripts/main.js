@@ -27,6 +27,8 @@
     // Home page
     'home': {
       init: function() {
+            $("#slide0").addClass("active");
+         $("#data0").addClass("active");
         // JavaScript to be fired on the home page
       },
       finalize: function() {

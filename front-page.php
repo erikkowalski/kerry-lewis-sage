@@ -39,15 +39,51 @@ if( $images ): ?>
 </section>
 
 <section class="col-sm-12 hero">
+ <div class="row">
+   <div class="col-sm-12">
+     <h2 class="tagline">Creativity . Authenticity . Sustainability</h2>
+   </div>
+ </div>
   <hr>
   <div class="row">
    <div class="col-sm-6">
-     <h2>Kerry Lewis Landscape Architects, established in 2002, is a design firm dedicated to the practice of residential landscape architecture.</h2>
+     <h2>Kerry Lewis Landscape Architecture, established in 2002, is a design firm dedicated to the practice of residential landscape architecture.</h2>
    </div>
     <div class="col-md-6 ">
-        <p>With over 20 years of experience in residential design, I am particularly attuned to the needs of the private client. Personal service, attention to detail and hands-on involvement from beginning to end of the project are the hallmarks of my practice. Whether you have a small urban garden or a large country estate, my team and I are capable of transporting your ideas into a realized vision</p>
+        <p>In a career spanning three decades, Kerry Lewis had amassed a wealth of knowledge in the intricacies of residential design rooted in the unique New England vernacular. Our client-focused collaborative process has led to a reputation as a responsive, practical and attentive partner in the design and construction of projects of all scales.
+ </p>
 
     </div>
   </div>
   <hr>
+</section>
+<section class="col-sm-12 projects">
+<div class="row">
+  <div class="col-sm-12">
+    <h3>Projects</h3>
+  </div>
+</div>
+<hr>
+ <div class="row">
+   <div class="col-sm-6">
+       <img class=" img-responsive" src="<?= get_template_directory_uri(); ?>/dist/images/IMG_5582.jpg" alt="project">
+
+   </div>
+   <div class="col-sm-6">
+       <img class=" img-responsive" src="<?= get_template_directory_uri(); ?>/dist/images/IMG_5838.jpg" alt="project">
+
+   </div>
+ </div>
+ <hr>
+  <div class="row">
+   <div class="col-sm-6">
+       <img class=" img-responsive" src="<?= get_template_directory_uri(); ?>/dist/images/IMG_5862.jpg" alt="project">
+
+   </div>
+   <div class="col-sm-6">
+       <img class=" img-responsive" src="<?= get_template_directory_uri(); ?>/dist/images/IMG_5550.jpg" alt="project">
+
+   </div>
+ </div>
+ <hr>
 </section>

@@ -1,0 +1,105 @@
+.post-header{
+   border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 1.0em;
+  .entry-title {
+    font-style: italic;
+    font-weight: 700;
+    color: #000;
+    font-family: minion-pro-caption, serif;
+
+  }
+  }
+
+.single-post ,.blog{
+  .post-header .entry-title{
+  margin-bottom: 0;
+}
+}
+
+
+.blog {
+  .entry-title {
+        font-style: italic;
+    font-weight: 700;
+    color: #000;
+    font-family: minion-pro-caption, serif;
+
+    a {
+
+    }
+  }
+  .author a{
+    color: $gray-dark;
+  }
+
+  .entry-summary a{
+    color: $gray-light;
+  }
+  .post {
+    margin-bottom: 6em;
+  }
+
+}
+
+// Portfolio Laninding Page: // Projects \\
+
+.post-type-archive-project {
+  .post-header{
+      margin-bottom: 2em;
+    @media(min-width:$screen-md){
+      position: relative;
+      .entry-title{
+        position: absolute;
+        bottom: 150px;
+        left: 0;
+        text-align: center;
+        width: 100%;
+
+
+        a {
+          color: rgb(0, 0, 0);
+          background: white;
+          text-decoration: none;
+          padding:0.3em 0.5em;;
+          &:hover{
+            color: white;
+            background: rgba(255, 255, 255, 0);
+          }
+        }
+      }
+    }
+
+  }
+
+
+  .entry-title {
+
+    a {
+      color: $gray-dark;
+    }
+  }
+
+
+}
+  .main .time {
+    display:inline-block;
+    font-family: $font-family-sans-serif-cond;
+
+  }
+  .author {
+    display:inline-block;
+  }
+
+.project-description {
+  @media (min-width:$screen-md){
+    column-count: 2;
+}
+}
+
+  .post-header, .project-description{
+    @media(max-width:$screen-sm){
+  //    padding-left: 1em;
+    }
+  }
+
+

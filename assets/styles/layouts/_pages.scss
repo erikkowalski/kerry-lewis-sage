@@ -1,0 +1,98 @@
+.thumbnail-left {
+  margin-top: 0.5em;
+}
+
+
+.headline-left h2 {
+  margin-top: 0;
+}
+
+
+.carousel-header {
+  margin-bottom: 1em;
+}
+
+.bio-img {
+  margin-bottom: 1em;
+  @media (min-width:$screen-sm){
+    margin-top: 0.5em;
+  }
+}
+
+.profile {
+  .headline-left {
+    h2 {
+      font-size: 1.9em;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+      line-height: 1.6em;
+      color: $gray-dark;
+    }
+  }
+
+}
+
+  .pull-quote{
+        @media(min-width:$screen-sm){
+                    h3 {
+                      font-family: acumin-pro-condensed,Helvetica,Arial,sans-serif;
+                      font-weight: 100;
+                      line-height: 1.5em;
+                      font-size: 1.3em;
+                      letter-spacing: 0.03em;
+                      margin-top: 0;
+        }
+    }
+        @media(min-width:$screen-md){
+                    h3 {
+                        line-height: 1.7em;
+                       font-size: 1.5em;
+                       margin-top: 0.5em;
+        }
+    }    @media(min-width:$screen-lg){
+                    h3 {
+                      margin-top: 0.8em;
+                       font-size: 1.75em;
+                        line-height: 1.7em;
+        }
+    }
+  }
+
+
+.text-full-width {
+  @media (min-width:$screen-md){
+}
+}
+
+.contact {
+  h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    font-size: 1.6em;
+    margin-top: 0;
+  }
+  a{
+    color: $gray-dark;
+  }
+
+  .content-info {
+    @media(max-width:$screen-sm){
+       margin-top: 23em;
+    }
+
+  }
+}
+
+.contact-info-section{
+  @media (max-width:$screen-sm){
+    position: relative;
+    .contact-info {
+      position: absolute;
+      top: 200px;
+      left:-5px;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 0.5em 1em;
+      padding-bottom: 10em;
+    }
+  }
+}

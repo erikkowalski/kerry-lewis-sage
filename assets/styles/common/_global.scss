@@ -1,7 +1,21 @@
 
 body {
-	padding-top: 70px;
 
+    padding-top: 100px;
+
+}
+
+.single-project {
+  padding-top: 80px;
+  @media(min-width:$screen-sm){
+    	padding-top: 100px;
+  }
+
+}
+
+.bio,.contact, .blog, .archive {
+
+  padding-top: 70px
 }
 
 
@@ -43,6 +57,8 @@ img.wp-post-image {
 	color: black;
   font-style: italic;
   font-weight: 600;
+  letter-spacing: -0.02em;
+font-family: minion-pro-caption;
  // font-family: $font-family-sans-serif;
 
 }
@@ -80,10 +96,15 @@ h2 {
 }
 
 h3 {
-  font-family: $font-family-sans-serif;
-  font-weight: 900;
+  font-family: $font-family-sans-serif-cond;
+  font-weight: 100;
   line-height: 1.6em;
   padding-bottom: 0.2em;
+}
+
+h4 {
+  font-family: $font-family-sans-serif-cond;
+  font-weight: 600;
 }
 
 .text-block h3 {

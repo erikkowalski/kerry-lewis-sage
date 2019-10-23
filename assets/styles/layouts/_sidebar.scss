@@ -1,0 +1,31 @@
+.sidebar {
+  @media(min-width:$screen-sm){
+    margin-top: 7em;
+  }
+  h3 {
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+      li {
+        list-style: none;
+        }
+  }
+
+  .search-form {
+    label {
+       @media(min-width:$screen-sm){
+      max-width: 68%;
+      }
+      @media(min-width:$screen-lg){
+         max-width: 80%;
+      }
+
+    }
+    input {
+      font-family: $font-family-sans-serif-cond
+    }
+    }
+}

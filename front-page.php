@@ -1,5 +1,7 @@
 
 <section class="top col-sm-12">
+
+
 <div id="carousel-home-page" class="carousel fade" data-ride="carousel" >
 <?php  $images = get_field('home_page_gallery');
 if( $images ): ?>
@@ -25,11 +27,11 @@ if( $images ): ?>
 <?php endif; ?>
    		  <!-- Controls -->
 		  <a class="left carousel-control" href="#carousel-home-page" role="button" data-slide="prev">
-			  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			  <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
 			  <span class="sr-only">Previous</span>
 		  </a>
 		  <a class="right carousel-control" href="#carousel-home-page" role="button" data-slide="next">
-			  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			  <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
 			  <span class="sr-only">Next</span>
 		  </a>
 
@@ -46,12 +48,12 @@ if( $images ): ?>
  </div>
   <hr>
   <div class="row">
-   <div class="col-sm-6">
+   <div class="col-sm-6 home-hero-text">
      <h2>Kerry Lewis Landscape Architecture, established in 2002, is a design firm dedicated to the practice of residential landscape architecture.</h2>
    </div>
     <div class="col-md-6 ">
-        <p>In a career spanning three decades, Kerry Lewis had amassed a wealth of knowledge in the intricacies of residential design rooted in the unique New England vernacular. Our client-focused collaborative process has led to a reputation as a responsive, practical and attentive partner in the design and construction of projects of all scales.
- </p>
+        <h4>In a career spanning three decades, Kerry Lewis had amassed a wealth of knowledge in the intricacies of residential design rooted in the unique New England vernacular. Our client-focused collaborative process has led to a reputation as a responsive, practical and attentive partner in the design and construction of projects of all scales.
+ </h4>
 
     </div>
   </div>

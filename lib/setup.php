@@ -86,6 +86,9 @@ function display_sidebar() {
     is_404(),
     is_front_page(),
     is_page_template('template-custom.php'),
+
+    is_post_type_archive('project'),
+    is_page_template('template-custom.php'),
     is_page('bio'),
     is_page('profile'),
     is_page('process'),

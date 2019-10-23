@@ -3,7 +3,7 @@
 
 
 .top {
-  padding-top: 1.5em;
+
 }
 
   .hero .tagline {
@@ -25,10 +25,23 @@
   h2 {
     margin-top: 0;
     font-weight: 100;
-    line-height: 1.2em;
+    font-size: 1.9em;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+      line-height: 1.5em;
+        color: $gray-dark;
     @media(max-width:$screen-sm){
       font-size: 1.8em;
     }
+  }
+
+  h4 {
+      margin-top: 0;
+      font-weight: 100;
+      font-size: 1.3em;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+     line-height: 1.6em;
   }
   p {
     font-size: 1.1em;

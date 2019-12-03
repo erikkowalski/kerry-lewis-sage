@@ -12,12 +12,21 @@
   margin-bottom: 1em;
 }
 
-.bio-img {
+.bio-layout {
+  .col-sm-9, .col-lg-8 {
+    padding-left: 15px;
+  }
+
+  .bio-img {
   margin-bottom: 1em;
   @media (min-width:$screen-sm){
     margin-top: 0.5em;
   }
 }
+
+
+}
+
 
 .profile {
   .headline-left {
@@ -28,6 +37,12 @@
       line-height: 1.6em;
       color: $gray-dark;
     }
+    .col-sm-7 {
+      padding-left: 15px;
+    }
+  }
+  .pull-quote {
+    padding-left: 15px;
   }
 
 }

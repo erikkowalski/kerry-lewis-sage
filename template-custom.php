@@ -103,7 +103,7 @@ endif; ?>
        <hr>
 
   <?php elseif( get_row_layout() == 'bio_layout' ):  ?>
-    <div class="row">
+    <div class="row bio-layout">
       <div class=" col-sm-3 col-lg-4">
         <img class="img-responsive bio-img" src="<?php	the_sub_field('bio_image'); ?>" alt="">
       </div>

@@ -1,13 +1,4 @@
-.single-project, {
-  .main {
-    width: 100%;
-  }
-}
-
-
-//* Portfolio landing page *//
-
-.portfolio, .home  {
+.portfolio {
     a {
         color: black;
     }
@@ -52,7 +43,6 @@
 				font-weight: 100;
 			}
 		}//.grid-one-image-two
-
 		.grid-one-image-three {
 			margin-bottom: 10px;
 			position: relative;

@@ -2,6 +2,7 @@
 
 
 
+
 .top {
 
 }
@@ -22,6 +23,9 @@
   }
 
 .hero {
+  .col-sm-6, .col-sm-12 {
+    padding:0 20px;
+  }
   h2 {
     margin-top: 0;
     font-weight: 100;
@@ -30,6 +34,7 @@
       letter-spacing: 0.01em;
       line-height: 1.5em;
         color: $gray-dark;
+    color: $brand-primary;
     @media(max-width:$screen-sm){
       font-size: 1.8em;
     }
@@ -66,7 +71,7 @@
     font-style: italic;
     text-align: center;
     font-size: 3em;
-    color: $brand-primary;
+    color: $gray-light;
     @media(max-width:$screen-sm){
       font-size: 2.8em;
       padding-bottom: 0;
@@ -83,3 +88,4 @@
     }
 
 }
+

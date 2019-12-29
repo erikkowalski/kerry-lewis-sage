@@ -62,7 +62,7 @@ if( $images ): ?>
 <section class="col-sm-12 projects">
 <div class="row">
   <div class="col-sm-12">
-    <h3>Projects</h3>
+    <h3>Featured Projects</h3>
   </div>
 </div>
 <hr>

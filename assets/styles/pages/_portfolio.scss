@@ -171,8 +171,29 @@
 				font-weight: 100;
 
 			}
+
 		}//.grid-three-image-two
 
+		.grid-four-image-one{
+			position: relative;
+                @media(max-width:$screen-xs){
+                    margin-bottom: 10px;
+                }
+			h2 {
+
+				position: absolute;
+				background: white;
+				padding:0.4em 0.6em;
+				font-size: 1.0em;
+                      @media(min-width:$screen-sm){
+				font-size: 1.5em;
+                    }
+				letter-spacing: 0.03em;
+				top: 30px;
+				right: 0;
+				font-weight: 100;
+			}
+		}//.grid-three-image-one
 	}
 
 } //.portfolio

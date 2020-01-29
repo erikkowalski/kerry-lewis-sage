@@ -94,6 +94,27 @@
 			</div>
 		</div>
 
+<!-- Grid Four -->
+	   <?php elseif( get_row_layout() == 'grid_four' ):  ?>
+	   <div class="row grid-three">
+			<div class="col-one col-sm-4">
+				<div class="grid-three-image-two">
+                    <a href="<?php	the_sub_field('grid_four_image_one_link'); ?>"><h2><?php the_sub_field('grid_four_image_one_tittle') ?></h2></a>
+				<a href="<?php	the_sub_field('grid_four_image_one_link'); ?>">
+					<img class="img-responsive" src="<?php	the_sub_field('grid_four_image_one'); ?>" alt="">
+				</a>
+				</div>
+			</div>
+			<div class="col-two col-sm-8">
+				<div class="grid-four-image-one title-right">
+                    <a href="<?php	the_sub_field('grid_four_image_two_link'); ?>"><h2><?php the_sub_field('grid_four_image_two_tittle') ?></h2></a>
+				<a href="<?php	the_sub_field('grid_four_image_two_link'); ?>">
+					<img class="img-responsive" src="<?php	the_sub_field('grid_four_image_two'); ?>" alt="">
+				</a>
+			</div>
+			</div>
+		</div>
+
 
 
 	<?php	endif;
@@ -101,3 +122,5 @@
 		else :
 	// no layouts found
 endif; ?>
+
+

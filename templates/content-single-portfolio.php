@@ -50,9 +50,27 @@ if( $images ): ?>
       <p><?php the_field('project_description') ?></p>
 
     </section>
+
+
     <div class="col-sm-12">
        <hr>
     </div>
+
+      <?php if( have_rows('credits_section') ):
+        while ( have_rows('credits_section') ) : the_row(); ?>
+     <section >
+      <div class="col-sm-12">
+        <p class="credits"> <span class="role"><?php the_sub_field('role'); ?>: </span><?php  the_sub_field('name'); ?>
+        </p>
+      </div>
+
+  </section>
+    <?php endwhile;else:endif;?>
+
+  <div class="col-sm-12">
+       <hr>
+    </div>
+
 
   </div>
     <div class="entry-content">
